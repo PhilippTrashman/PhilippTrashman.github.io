@@ -31,7 +31,7 @@ const dict = {
     18 : [':(', `img/18.jpeg`, bone],
     19 : ['2 Cool 4 School', `img/19.jpeg`, sweater],
     20 : ['Who put the Cheese on da Cat', `img/20.jpeg`, bone],
-    21 : ['Dont get to close', `img/21.jpeg`, bone],
+    21 : ['Dont get too close', `img/21.jpeg`, bone],
     22 : ['He smelling the Zaza', `img/22.jpeg`, bone],
     23 : ['Drank too much', `img/23.jpeg`, bone],
     24 : ['Waking up is hard at times', `img/24.jpeg`, bone],
