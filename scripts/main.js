@@ -16,7 +16,7 @@ const dict = {
     3 : ['Bit to much of the ZAZA i guess >_<', `img/3.jpg`, bone],
     4 : ['He looks so betrayed :(', `img/4.jpg`, bone],
     5 : ['Oh he looks so relaxed :)', `img/5.jpg`, bone],
-    6 : ['Looking quiet Handsome', `img/6.jpg`, chad], 
+    6 : ['Looking quite Handsome', `img/6.jpg`, chad], 
     7 : ['FLOPPA', `img/7.jpg`, bone],
     8 : ['Thats not a CAT', `img/8.jpg`, bone],
     9 : ['Oh, is... is that the Spongebob', `img/9.gif`, funky],
