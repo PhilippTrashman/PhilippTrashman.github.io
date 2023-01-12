@@ -37,7 +37,26 @@ const dict = {
     24 : ['Waking up is hard at times', `img/24.jpeg`, bone],
     25 : ['Very Cute :)', `img/25.jpeg`, bone],
     26 : ['Me when no zaza', 'img/26.gif', bone],
-    27 : ['Looking very Sussy ඞ', 'img/27.gif', sussy]
+    27 : ['Looking very Sussy ඞ', 'img/27.gif', sussy],
+    28 : ['Smile so bright like the sun', `img/28.jpeg`, bone],
+    29 : ['Coding is hard :(', `img/29.jpeg`, bone],
+    30 : ['He knows', `img/30.jpeg`, bone],
+    31 : ['Oh silly, ate too much', `img/31.jpeg`, bone],
+    32 : ['Very comfortable :)', `img/32.jpeg`, bone],
+    33 : ['goober', `img/33.jpeg`, bone],
+    34 : ['Who took his boots >:(', `img/34.jpeg`, bone],
+    35 : ["OMG SNUGGLES", `img/35.jpeg`, bone],
+    36 : ["Can't get out of this one", `img/36.jpeg`, bone],
+    37 : ['Why are they holding him like that :O', `img/37.jpeg`, bone],
+    38 : ['It was probably very tasty', `img/38.jpeg`, bone],
+    39 : ['The Observer', `img/39.jpeg`, bone],
+    40 : ['I will join him to the end of the world', `img/40.jpeg`, bone],
+    41 : ['You tellin me, a shrimp fried that rice', `img/41.jpeg`, bone],
+    42 : ['looking very adorable', `img/42.jpeg`, bone],
+    43 : ['he be zoomin', `img/43.jpeg`, bone],
+    44 : ['Very Judgemental of the Salad', `img/44.jpeg`, bone],
+    45 : ['What knowledge does he have', `img/45.jpeg`, bone],
+
 
 }
 
@@ -66,7 +85,7 @@ function cat_text(number){
     dict[number][2].play()
 }
 
-let cat_num = Math.floor(Math.random() * 27) + 1;
+let cat_num = Math.floor(Math.random() * 45) + 1;
 const myImage = document.querySelector("img");
 myImage.setAttribute("src", `img/${cat_num}.jpg`);
 cat_text(cat_num)
@@ -76,9 +95,9 @@ let cat_num_comp = 6;
 myImage.onclick = () => {
     music_handler()
 
-    cat_num = Math.floor(Math.random() * 27) + 1;
+    cat_num = Math.floor(Math.random() * 45) + 1;
     if (cat_num === cat_num_comp){
-        cat_num = Math.floor(Math.random() * 27) + 1;
+        cat_num = Math.floor(Math.random() * 45) + 1;
     }
 
     cat_text(cat_num)
