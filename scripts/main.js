@@ -86,7 +86,7 @@ function cat_text(number){
 }
 
 let cat_num = Math.floor(Math.random() * 45) + 1;
-const myImage = document.querySelector("img");
+const myImage = document.querySelector("#cat");
 myImage.setAttribute("src", `img/${cat_num}.jpg`);
 cat_text(cat_num)
 let cat_num_comp = 6;

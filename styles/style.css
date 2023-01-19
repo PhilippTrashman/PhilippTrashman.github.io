@@ -1,7 +1,7 @@
 html {
     font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
     font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google Fonts */
-
+    background-color: #EEB5EB;
   }
 
 h2{
@@ -32,16 +32,16 @@ img {
     display: block;
     margin: 0 auto;
 }
+iframe{
+  display: block;
+  margin: 0 auto;
+}
 p,
 li {
   font-size: 16px;
   line-height: 2;
   letter-spacing: 1px;
 }
-
-html {
-    background-color: #EEB5EB;
-  }
 
 body {
     width: 1200px;
@@ -50,4 +50,42 @@ body {
     padding: 0 20px 20px 20px;
     border: 5px solid #814a7e;
     display: block;
+}
+div{
+  display: block;
+  width: auto;
+  margin: 0 auto;
+}
+
+
+
+li {
+  float: left;
+}
+
+li#nav {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-right: 1px solid black;
+}
+
+a#nav {
+  color: #C8F4F9;
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #814a7e;
+}
+
+li a:hover {
+  background-color: #522e50;
 }
