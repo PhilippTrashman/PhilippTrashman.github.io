@@ -11,7 +11,6 @@
     <title>Dumb looking Cats</title>
   </head>
   <body>
-
     <header>
       <h1>Look at these Dumb Cats</h1>
     </header>
@@ -20,7 +19,23 @@
       <ul id="nav">
         <li id="nav"><a id="nav" href="https://www.youtube.com/watch?v=7Uu-IV3bIUks ">Cats</a></li>
         <li id="nav"><a id="nav" href="https://google.com/">Philosophy</a></li>
-        <li id="nav">PayPal</li>
+        <li id="nav">
+          <div id="donate-button-container">
+            <div id="donate-button"></div>
+            <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+            <script>
+            PayPal.Donation.Button({
+            env:'production',
+            hosted_button_id:'LVXDNSW67ND3U',
+            image: {
+            src:'https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donate_SM.gif',
+            alt:'Spenden mit dem PayPal-Button',
+            title:'PayPal - The safer, easier way to pay online!',
+            }
+            }).render('#donate-button');
+            </script>
+            </div>
+        </li>
       </ul>
     </nav>
 
@@ -31,7 +46,7 @@
       height =600 />
       <h3>Why do you have a cone on your hat >-></h3>
     </div>
-  
+
     <iframe width="560"
       height="315" 
       src="https://www.youtube-nocookie.com/embed/e1OWVKtAp7s" 
@@ -40,11 +55,13 @@
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
       allowfullscreen
     ></iframe>
-      
+
     <p>Haha these cats are so funny</p>
     
     <a href="https://web.cecs.pdx.edu/~harry/ethics/Unabomber.pdf">The Industrial Revolution and its consequences have been a disaster for the human race</a>
-    
+  
+      
+
     <script src="scripts/main.js"></script>
   </body>
 </html>

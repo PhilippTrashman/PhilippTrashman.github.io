@@ -91,17 +91,22 @@ myImage.setAttribute("src", `img/${cat_num}.jpg`);
 cat_text(cat_num)
 let cat_num_comp = 6;
 
+const paybutton = document.querySelector("#paybutton")
 
 myImage.onclick = () => {
     music_handler()
-
+    
     cat_num = Math.floor(Math.random() * 45) + 1;
     if (cat_num === cat_num_comp){
         cat_num = Math.floor(Math.random() * 45) + 1;
     }
-
+    
     cat_text(cat_num)
     
     cat_num_comp = cat_num;
-
+    
 };
+
+paybutton.onclick = () =>{
+    
+}

@@ -72,11 +72,15 @@ li#nav {
   border-right: 1px solid black;
 }
 
-a#nav {
+a#nav, #donate-button-container {
   color: #C8F4F9;
   display: block;
   padding: 8px;
   text-decoration: none;
+}
+
+#donate-button-container{
+  float: right;
 }
 ul {
   list-style-type: none;
