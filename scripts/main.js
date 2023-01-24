@@ -107,6 +107,22 @@ myImage.onclick = () => {
     
 };
 
-paybutton.onclick = () =>{
-    
+let myButton = document.querySelector("#name");
+let myHeading = document.querySelector("#welcome");
+
+function setUserName(){
+    const myName = prompt("Please enter your name.");
+    localStorage.setItem("name", myName);
+    myHeading.textContent = `Welcome ${myName}`;
 }
+
+// if (!localStorage.getItem("name")) {
+//     setUserName();
+// } else{
+//     const storedName = localStorage.getItem("name");
+//     myHeading.textCointen = `Welcome ${storedName}`;
+// }
+
+myButton.onclick = () => {
+    setUserName();
+};
