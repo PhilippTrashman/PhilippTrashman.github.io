@@ -89,6 +89,7 @@ a#nav, #donate-button-container {
   text-decoration: none;
 }
 
+
 #donate-button-container{
   float: right;
   display: block;
@@ -110,6 +111,7 @@ li a:hover {
   background-color: #522e50;
 }
 
+
 button#name{
   background-color: #814a7e;
   border: none;
@@ -119,4 +121,7 @@ button#name{
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+button#name:hover{
+  background-color: #522e50;
 }
