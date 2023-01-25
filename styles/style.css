@@ -131,13 +131,3 @@ button#name{
 button#name:hover{
   background-color: #522e50;
 }
-
-div#ad{
-  display:inline-block;
-  width: 50px;
-}
-
-p#ad{
-  writing-mode: vertical-lr;
-  text-orientation: upright;
-}
