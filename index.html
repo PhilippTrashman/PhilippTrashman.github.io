@@ -11,60 +11,66 @@
     <title>Dumb looking Cats</title>
   </head>
   <body>
-    <header>
-      <h1 id="welcome">Hello Anon</h1>
-    </header>
-    
-    <!-- Navigation Bar -->
-    <nav>
-      <ul id="nav">
-        <li id="nav"><a id="nav" href="https://www.youtube.com/watch?v=7Uu-IV3bIUks ">Cats</a></li>
-        <li id="nav"><a id="nav" href="https://google.com/">Philosophy</a></li>
-        <li id="nav"><button id="name">Change User</button></li>
-        <li id="paynav">
-          <div id="donate-button-container">
-            <div id="donate-button"></div>
-            <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
-            <script>
-            PayPal.Donation.Button({
-            env:'production',
-            hosted_button_id:'LVXDNSW67ND3U',
-            image: {
-            src:'https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donate_SM.gif',
-            alt:'Spenden mit dem PayPal-Button',
-            title:'PayPal - The safer, easier way to pay online!',
-            }
-            }).render('#donate-button');
-            </script>
-          </div>
-        </li>
-      </ul>
-    </nav>
-    <h1>Look at these Dumb Cats</h1>
-    <div> <!-- Cat Picture Container -->
-      <h2>Don't they look silly?</h2>
-      <img id="cat" src="img\1.jpg" alt="A Dumb looking Cat" 
-      width = auto
-      height =600 />
-      <h3>Why do you have a cone on your hat >-></h3>
+    <div id="ad">
+      <p id="ad">Your Ad here</p>
     </div>
+    <div id="mainbod">
 
-    <!-- Dance Cat Video -->
-    <iframe width="560"
+      <header>
+        <h1 id="welcome">Hello Anon</h1>
+      </header>
+      
+      <!-- Navigation Bar -->
+      <nav>
+        <ul id="nav">
+          <li id="nav"><a id="nav" href="https://www.youtube.com/watch?v=7Uu-IV3bIUks ">Cats</a></li>
+          <li id="nav"><a id="nav" href="https://google.com/">Philosophy</a></li>
+          <li id="nav"><button id="name">Change User</button></li>
+          <li id="paynav">
+            <div id="donate-button-container">
+              <div id="donate-button"></div>
+              <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+              <script>
+                PayPal.Donation.Button({
+                  env:'production',
+                  hosted_button_id:'LVXDNSW67ND3U',
+                  image: {
+                    src:'https://www.paypalobjects.com/de_DE/DE/i/btn/btn_donate_SM.gif',
+                    alt:'Spenden mit dem PayPal-Button',
+                    title:'PayPal - The safer, easier way to pay online!',
+                  }
+                }).render('#donate-button');
+              </script>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <h1>Look at these Dumb Cats</h1>
+      <div> <!-- Cat Picture Container -->
+        <h2>Don't they look silly?</h2>
+        <img id="cat" src="img\1.jpg" alt="A Dumb looking Cat" 
+        width = auto
+        height =600 />
+        <h3>Why do you have a cone on your hat >-></h3>
+      </div>
+
+      <!-- Dance Cat Video -->
+      <iframe width="560"
       height="315" 
       src="https://www.youtube-nocookie.com/embed/e1OWVKtAp7s" 
       title="YouTube video player" 
       frameborder="0" 
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
       allowfullscreen
-    ></iframe>
+      ></iframe>
 
-    <p>Haha these cats are so funny</p>
-    
-    <a href="https://web.cecs.pdx.edu/~harry/ethics/Unabomber.pdf">The Industrial Revolution and its consequences have been a disaster for the human race</a>
-  
-    <!-- <button id="name">Change User</button> -->
+      <p>Haha these cats are so funny</p>
 
-    <script src="scripts/main.js"></script>
+      <a href="https://web.cecs.pdx.edu/~harry/ethics/Unabomber.pdf">The Industrial Revolution and its consequences have been a disaster for the human race</a>
+
+      <!-- <button id="name">Change User</button> -->
+
+      <script src="scripts/main.js"></script>
+    </div>
   </body>
-</html>
+  </html>

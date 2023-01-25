@@ -4,11 +4,13 @@ const chad = new Audio("audio/Chad.mp3")
 const sweater = new Audio("audio/Sweaterlove.mp3")
 const funky = new Audio("audio/funky.mp3")
 const sussy = new Audio("audio/among_us.mp3")
+const creep = new Audio("audio/Creep.mp3")
 
 bone.volume = 0.5
 chad.volume = 0.5
 funky.volume = 0.25
 sussy.volume = 0.75
+creep.volume = 0.8
 
 const dict = {
     1 : ['Why do you have a cone on your hat >->', `img/1.jpg`, bone],
@@ -56,6 +58,7 @@ const dict = {
     43 : ['he be zoomin', `img/43.jpeg`, bone],
     44 : ['Very Judgemental of the Salad', `img/44.jpeg`, bone],
     45 : ['What knowledge does he have', `img/45.jpeg`, bone],
+    46 : ["I said right foot creep, ooh, I'm walking with that heater", `img/46.gif`, creep]
 
 
 }
@@ -67,12 +70,14 @@ function music_handler(){
     sweater.currentTime=0;
     funky.currentTime = 0;
     sussy.currentTime = 0;
+    creep.currentTime = 0;
 
     bone.pause()
     chad.pause()
     sweater.pause()
     funky.pause()
     sussy.pause()
+    creep.pause()
 }
 
 function cat_text(number){
@@ -85,7 +90,7 @@ function cat_text(number){
     dict[number][2].play()
 }
 
-let cat_num = Math.floor(Math.random() * 45) + 1;
+let cat_num = Math.floor(Math.random() * 46) + 1;
 const myImage = document.querySelector("#cat");
 myImage.setAttribute("src", `img/${cat_num}.jpg`);
 cat_text(cat_num)
@@ -96,9 +101,9 @@ const paybutton = document.querySelector("#paybutton")
 myImage.onclick = () => {
     music_handler()
     
-    cat_num = Math.floor(Math.random() * 45) + 1;
+    cat_num = Math.floor(Math.random() * 46) + 1;
     if (cat_num === cat_num_comp){
-        cat_num = Math.floor(Math.random() * 45) + 1;
+        cat_num = Math.floor(Math.random() * 46) + 1;
     }
     
     cat_text(cat_num)
