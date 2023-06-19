@@ -63,6 +63,10 @@ const dict = {
 
 }
 
+const add_dict = {
+    1: []
+}
+
 function music_handler(){
     // used to controll the different songs
     bone.currentTime=0;
