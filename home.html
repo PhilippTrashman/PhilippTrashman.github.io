@@ -25,7 +25,9 @@
     </header>
     <section id="home">
         <div id="side-left">
-            
+            <img src="img\very_real_ads\create_your_adventure.png" alt="Du hast nicht genug energie um das hier zu lesen"
+            width = auto
+            height = 50% />
         </div> <!-- Side Div on the Left -->
 
         <div id="image-bod"> <!-- Cat Picture Container -->
@@ -36,23 +38,87 @@
         </div>
 
         <div id="side-right">
-            <img id="ad" src="img\very_real_ads\Rise_of_Burger.png" alt="Du hast nicht genug energie um das hier zu lesen"
+            <img src="img\very_real_ads\Rise_of_Burger.png" alt="Du hast nicht genug energie um das hier zu lesen"
             width = auto
             height = 50% />
-            <img id="ad" src="img\very_real_ads\Order_Up.png" alt="Du hast nicht genug energie um das hier zu lesen"
+            <img src="img\very_real_ads\Order_Up.png" alt="Du hast nicht genug energie um das hier zu lesen"
             width = auto
             height = 50%/>
 
         </div> <!-- Side Div on the Right -->
     </section>
     <section id="about">
-      <h2>about</h2>
+      <h2>Cool Videos</h2>
+        <div id="ad_banner">
+            <img src="img\very_real_ads\HonkHonkStarrail.jpg" alt="Collect them all"
+                 width=auto
+                 height=100%/>
+        </div>
+        <div id="video_container">
+            <div class="left_videos">
+              <iframe width="100%"
+              height="100%"
+              src="https://www.youtube-nocookie.com/embed/e1OWVKtAp7s"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+              ></iframe>
+            </div>
+            <div class="right_videos">
+              <iframe width="100%"
+              height="50%"
+              src="https://www.youtube-nocookie.com/embed/6YEA4jxLHdk"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+              ></iframe>
+              <iframe width="100%"
+              height="50%"
+              src="https://www.youtube-nocookie.com/embed/i3EMxU2V2xQ"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+              ></iframe>
+            </div>
+        </div>
     </section>
+
     <section id="contact">
       <h2>Weird Stuff</h2>
+        <canvas id="flappy_bird"></canvas>
+        <script>
+              var canvas = document.getElementById("flappy_bird");
+
+              // Calculate the width based on the height and ratio
+              var height = canvas.clientHeight;
+              var width = (height * 1069) / 600;
+
+        </script>
     </section>
     <section id="donation">
-      <h2>Donation Button</h2>
+        <div id="side-left">
+            <img src="img\very_real_ads\create_your_adventure.png" alt="Du hast nicht genug energie um das hier zu lesen"
+            width = auto
+            height = 50% />
+                <img src="img\very_real_ads\ballin.gif" alt="Bussin on da Ops"
+                width = 91.4%
+                height = 50% />
+        </div> <!-- Side Div on the Left -->
+        <div id="donation_window">
+
+        </div>
+        <div id="side-right">
+            <img src="img\very_real_ads\Rise_of_Burger.png" alt="Du hast nicht genug energie um das hier zu lesen"
+            width = auto
+            height = 50% />
+            <img src="img\very_real_ads\Order_Up.png" alt="Du hast nicht genug energie um das hier zu lesen"
+            width = auto
+            height = 50%/>
+
+        </div> <!-- Side Div on the Right -->
     </section>
     <script src="scripts/main.js"></script>
 </body>
